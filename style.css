@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+body {
+    text-align: center;
+}
+
+.spotlight {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spotlight-main {
+    width: 35%;
+}
+
+.spotlight-main p {
+    margin: 20px;
+    margin-left: 0;
+}
+
+.bright-background {
+    background-color: rgb(23, 216, 168);
+}
+
+.fourbox {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 69px;
+    padding-bottom: 100px;
+
+}
+
+.info {
+    width: 200px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.quote-div {
+    display: flex;
+    flex-direction: column;
+    padding: 128px 192px 96px;
+    background-color: blueviolet;
+    font-size: 26px;
+    line-height: 150%;
+    font-style: italic;
+}
+
+.authorquote {
+    text-align: end;
+}
+
+.signUp {
+    display: flex;
+    align-items: center;
+    background-color: indianred;
+    border: 12px solid hotpink;
+    border-radius: 24px;
+    box-shadow: 2px 2px 3px black;
+    margin: 120px auto;
+    padding: 32px 48px;
+    max-width: 1100px;
+}
+
+.callAction h3 {
+    color: darkmagenta;
+    text-shadow: 1px 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 8px;
+}
+
+.callAction p {
+    padding-right: 24px;
+}
+
+.action-btn {
+    flex-shrink: 0;
+    height: 36px;
+    width: 130px;
+    padding: 5px 25px;
+    margin: 24px auto;
+    background-color: rgb(230, 250, 250);
+    border-radius: 5px;
+    border: 4px solid black;
+    box-shadow: 3px 3px 4px black;
+    font-weight: 400;
+}
